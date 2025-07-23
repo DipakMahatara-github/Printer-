@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 64px;	
+}
+h2{
+	font-size: 46px;
+	line-height: 54px;
+}
+h4 {
+	font-size: 20px;
+}
+h6{
+	font-weight: 700;
+	font-size: 12px;
+}
+p{
+	font-size: 16px;
+	margin: 15px 0 20px 0;
+}
+.section-p1 {
+	padding: 40px 80px;
+}
+.section-m1 {
+	margin: 40px 0;
+}
+body {
+	width: 100%;
+}
+/*assigning the background image and other properties for page header*/
+#page-header{
+	background-image:url("img/background.jpg");
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction:column ;
+	padding: 14px;
+
+}
+#product1{
+	position: relative;
+}
+/*giving product one the appropriate details*/
+#product1 .pro{
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 1px solid gray;
+	border-radius: 25px;
+	cursor: pointer;
+	margin: 15px 0;
+	transition: 0.2s ease;
+	position: relative;
+}
+#product1 .pro:hover{
+    	box-shadow: 0px 0px 10px 5px gray;
+}
+#product1 .pro img {
+	max-width: 100%;
+	border-radius: 20px;
+	object-fit: cover;
+	object-position: center;
+	height: 70%;
+
+}
+#product1 .container{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+/*single product*/
+
+#prodetails {
+	display: flex;
+    margin-top: 20px;
+}
+#prodetails .single-pro-image{
+	width: 40%;
+	margin-right: 50px;
+}
+#prodetails .single-pro-details{
+          width: 50%;
+		  padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+	padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+	padding: 20px;
+}
+#prodetails .single-pro-details input{
+	width: 50px;
+	height: 47px;
+	padding-left: 10px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+#prodetails .single-pro-details button{
+	background: #088178;
+	color: #fff;
+	cursor: pointer;
+}
+#prodetails .single-pro-details span{
+	line-height: 25px;
+}
+/* footer */
+.foot{
+    height: 270px;
+    width: 1200px;
+	background-color: black;
+	display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    height: 50px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact1
+p:hover{
+    border: 1px solid white;
+}
+
+.contact2
+p:hover{
+    border: 1px solid white;
+}
+.contact3
+p:hover{
+    border: 1px solid white;
+}
+.contact4
+p:hover{
+    border: 1px solid white;
+}
